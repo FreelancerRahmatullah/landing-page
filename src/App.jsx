@@ -6,6 +6,9 @@ import Skills from './pages/Skills';
 import Services from './pages/Services';
 import ContactUs from './pages/ContactUs';
 import Footer from './components/Footer';
+import ProjectGallery from './pages/ProjectGallery';
+import UserList from './pages/UserList';
+import ShoppingCart from './pages/ShoppingCart';
 
 export default function App() {
   return (
@@ -15,7 +18,10 @@ export default function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/Skills" element={<Skills />}/>
         <Route path="/services" element={<Services />}/>
+        <Route path="/project-gallery" element={<ProjectGallery />}/>
         <Route path="/contact" element={<ContactUs />}/>
+        <Route path="/users" element={<UserList />}/>
+        <Route path="/shop" element={<ShoppingCart />}/>
       </Routes>
       <Footer />
     </div>
