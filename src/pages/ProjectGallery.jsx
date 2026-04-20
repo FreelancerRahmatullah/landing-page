@@ -20,7 +20,7 @@ const myWorks =[
 export default function ProjectGallery(){
   return (
     <div className='py-20 bg-gray-50 px-10'>
-      <h2 className='text-4xl font-bold text-center mb-12 text-gray-800'>My Works</h2>
+      <h2 className='text-4xl font-bold text-center mb-12 text-gray-800'>My Projects</h2>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto'>
         {myWorks.map((work, index) => (
           <div key={index} className='group bg-white rounded-3xl overflow-hidden shadow-2xl transition-all duration-300'>

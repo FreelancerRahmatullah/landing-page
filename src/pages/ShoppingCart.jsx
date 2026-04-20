@@ -62,7 +62,7 @@ export default function ShoppingCart() {
               </span>
             </div>
 
-            <div className="space-y-4 max-h-[400px] overflow-y-auto pr-2 custom-scrollbar">
+            <div className="space-y-4 `max-h-[400px]` overflow-y-auto pr-2 custom-scrollbar">
               {cart.length === 0 ? (
                 <p className="text-slate-400 text-center py-10">Cart is empty</p>
               ) : (
