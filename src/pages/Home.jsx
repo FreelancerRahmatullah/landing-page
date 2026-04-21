@@ -2,7 +2,7 @@ import { motion } from "motion/react"
 import { scale } from "motion/react";
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from "../../public/resume-of-rahmatullah.pdf"
+import resume from "../../public/resume.pdf"
 
 export default function Home() {
   return (
