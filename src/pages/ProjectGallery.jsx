@@ -1,6 +1,7 @@
 import React from 'react';
 import userList from '../assets/userList.png';
 import shoppingCart from '../assets/shoppingCart.png'
+import { Link } from 'react-router-dom';
 const myWorks =[
   {
     title: 'E-commerce Shopping Cart',
@@ -27,7 +28,7 @@ export default function ProjectGallery(){
             <img src={work.image} alt="" className='w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500' />
             <div className='p-8'>
                 <h3 className='text-gray-600 mb-6'>{work.title}</h3>
-            <a href={work.link} className='inline-block bg-gray-900 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-600 transition text-duration-none'>Watch live demo</a>
+            <Link to="/users" className='inline-block bg-gray-900 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-600 transition text-duration-none'>Watch live demo</Link>
             </div>
           </div>
         ))}
