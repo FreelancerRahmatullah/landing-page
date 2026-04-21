@@ -2,6 +2,7 @@ import { motion } from "motion/react"
 import { scale } from "motion/react";
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../public/resume-of-rahmatullah.pdf"
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
           </button>
         </Link>
       </motion.div>
-      <a href="" download className="mt-4 inline-block text-blue-600 font-semibold hover:underline">Download my CV (PDF)</a>
+      <a href={resume} download className="mt-4 inline-block text-blue-600 font-semibold hover:underline">Download my CV (PDF)</a>
     </div>
   );
 }
